@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.price {
+    font-size: 1.2em;
+    color: green;
+    margin: 10px 0;
+}
+.mrp {
+    text-decoration: line-through;
+    color: #999;
+}
+.discount {
+    color: red;
+    font-weight: bold;
+}
+
+.ado{
+    color: rgb(31, 114, 182);
+}
