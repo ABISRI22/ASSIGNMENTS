@@ -1,0 +1,11 @@
+body{
+    background-color: beige;
+}
+.bde{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ded{
+    text-align: center;
+}

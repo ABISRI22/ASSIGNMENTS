@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(233, 229, 225);
+}
+.ger{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.bed{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ads{
+    text-align: center;
+}
+
+.dad{
+    text-align: center;
+}

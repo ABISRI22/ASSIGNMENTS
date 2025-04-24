@@ -1,0 +1,10 @@
+body{
+    background-color: azure;
+    text-align: center;
+}
+.tree{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
