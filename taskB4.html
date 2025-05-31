@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+<p>Hello</p>
+<h4>Multiplication</h4>
+<p id="output"></p>
+<h4>Division</h4>
+<p id="output1"></p>
+
+
+ <button type="button" onclick="myFunction()">Set background color</button>
+
+ <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+ 
+
+
+
+<script>
+
+
+//1
+function multiply(num1, num2, num3) {
+  return num1 * num2 * num3;
+}
+
+const result = multiply(2, 3, 4);
+console.log(result);
+document.getElementById("output").innerText = `Result: ${result}`;
+
+//2
+
+const a = 14;
+const b = 7;
+const result1=(a / b);
+console.log(result1);
+document.getElementById("output1").innerText = `Result: ${result1}`;
+
+
+//3
+
+function myFunction() {
+  document.body.style.backgroundColor = "red";
+  
+}
+
+//4
+
+function changeBackgroundColor() {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+}
+
+</script>
+
+
+</body>
+</html>
